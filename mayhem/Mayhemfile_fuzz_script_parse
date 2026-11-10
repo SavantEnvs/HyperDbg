@@ -1,0 +1,10 @@
+project: savantenvs/HyperDbg
+target: fuzz_script_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_script_parse/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build/fuzz_script_parse
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_script_parse/fuzz_script_parse.dict
+    timeout: 10

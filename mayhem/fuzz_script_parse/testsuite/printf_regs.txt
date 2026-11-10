@@ -1,0 +1,1 @@
+printf("rax=%llx rbx=%d\n", @rax, @rbx + 4);
