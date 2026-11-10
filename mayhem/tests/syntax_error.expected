@@ -1,0 +1,4 @@
+ERROR: Line 0:
+print(1 + );
+          ^
+Syntax Error: Invalid Syntax

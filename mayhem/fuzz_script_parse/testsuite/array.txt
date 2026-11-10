@@ -1,0 +1,1 @@
+{ char buf[16]; buf[0] = 1; print(buf[0]); }

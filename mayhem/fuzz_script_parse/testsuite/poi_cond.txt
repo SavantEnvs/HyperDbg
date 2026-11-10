@@ -1,0 +1,1 @@
+if (poi(@rsp) == 0x1000 && !(@rax > 3 || @rbx <= 2)) { print(db(@rsp)); } else { print(dd(@rsp+4)); }

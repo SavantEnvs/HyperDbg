@@ -1,0 +1,1 @@
+print(sizeof(int)); print(0x1f + 0n10 + 0o17 + 0y101); printf("%d", $pid + $tid);
